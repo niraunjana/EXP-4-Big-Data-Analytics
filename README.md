@@ -58,7 +58,7 @@ spark.stop()
 # PySpark DataFrame Examples and Outputs
 
 ## Initial DataFrame
-```plaintext
+
 +-----+---+------+-----+
 | Name|Age|Gender|Salary|
 +-----+---+------+-----+
