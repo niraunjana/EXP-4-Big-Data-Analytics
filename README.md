@@ -54,7 +54,7 @@ print(records)
 
 # Stop the Spark session
 spark.stop()
-
+```
 # PySpark DataFrame Examples and Outputs
 
 ## Initial DataFrame
@@ -215,7 +215,7 @@ public class WordCountMapper extends Mapper<Object, Text, Text, IntWritable> {
         }
     }
 }
-
+```
 ### Step 2: Reducer Class
 
 The Reducer class takes the key-value pairs output by the Mapper, aggregates the values by key, and outputs the word with the total count.
@@ -243,7 +243,7 @@ public class WordCountReducer extends Reducer<Text, IntWritable, Text, IntWritab
         context.write(key, result);  // Emit (word, count)
     }
 }
-
+```
 ### Step 3: Driver Class
 
 The Driver class sets up the configuration, specifies the input and output paths, and executes the MapReduce job.
@@ -291,7 +291,7 @@ public class WordCount {
         System.exit(job.waitForCompletion(true) ? 0 : 1);
     }
 }
-
+```
 ### Step 4: Compile and Run the Job
 
 1. **Compile the Java classes into a .jar file**:
