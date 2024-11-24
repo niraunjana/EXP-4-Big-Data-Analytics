@@ -58,7 +58,7 @@ spark.stop()
 # PySpark DataFrame Examples and Outputs
 
 ## Initial DataFrame
-
+```plaintext
 +-----+---+------+-----+
 | Name|Age|Gender|Salary|
 +-----+---+------+-----+
@@ -105,7 +105,7 @@ spark.stop()
 |Jane |  3500|
 |Anna |  2800|
 +-----+-----+
-
+```
 [('John', 28, 'M', 3000), ('Jane', 35, 'F', 3500), ('Sam', 50, 'M', 4000), 
  ('Anna', 23, 'F', 2800), ('Peter', 40, 'M', 5000), ('Alice', 29, 'F', 3200), 
  ('Bob', 31, 'M', 3300)]
