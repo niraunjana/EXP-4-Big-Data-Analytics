@@ -1,4 +1,4 @@
-# EXP-4-Big-Data-Analytics
+# EXP-04-Big-Data-Analytics
 
 ## Data Processing with Apache Spark and Distributed Data Analysis with Hadoop
 
